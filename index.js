@@ -9,7 +9,7 @@ switch(true){
     case (y >= x && y >= z):
          console.log("y")
          break;
-    case (z >= x && z >= z):
+    case (z >= x && z >= y):
         console.log("z")
          break;
 }
